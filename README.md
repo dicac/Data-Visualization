@@ -7,16 +7,16 @@ Avodata represents weekly national (US) retail avocado sales data from 2015 to I
 	“Date”
 	“AveragePrice”, average price of a single avocado.
 	“Total Volume”, total number of avocados sold. 
-	“4046”, total number of avocados with PLU 4046.
-	“4225”, total number of avocados with PLU 4225.
-	“4770”, total number of avocados with PLU 4770.
+	“4046”, total number of avocados with PLU 4046 (Small Hass).
+	“4225”, total number of avocados with PLU 4225 (Large Hass).
+	“4770”, total number of avocados with PLU 4770 (XLarge Hass).
 	“Total Bags”, sum of the 3 bag sizes.
 	“type”, conventional or organic.
 	“region”, city or region of the observation.
   
  ### 2. Dataset
-| Date | AverangePrice | Total Volume | Small Hass | Large Hass | Total Bags | XLarge Bags |type | year | region|
-|-------------| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 2015-12-27 | 1.33  | 64236.62  | 1036.74  | 54454.85 | 48.16  | 8696.87  | 93.25 | 0.0 | conventional	| 2015	| Albany
-| 2015-12-20 | 1.35  | 54876.98  | 674.28  | 44638.81	  |58.33  | 9505.56	  | 97.49 |	0.0	 | conventional	| 2015	| Albany 
+| Date | AverangePrice | Total Volume | Small Hass | Large Hass | XLarge Hass | Total Bags | XLarge Bags |type | year | region|
+|-------------| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 2015-12-27 | 1.33  | 64236.62  | 1036.74  | 54454.85 | 48.16 | 8696.87 | 8603.62 | 93.25 | 0.0 | conventional	| 2015	| Albany
+| 2015-12-20 | 1.35  | 54876.98  | 674.28  | 44638.81 |58.33 | 9505.56 | 9408.07 | 97.49 | 0.0 | conventional | 2015	| Albany 
   
