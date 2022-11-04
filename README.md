@@ -8,8 +8,8 @@ Avodata represents weekly national (US) retail avocado sales data from 2015 to I
 	“AveragePrice”, average price of a single avocado.
 	“Total Volume”, total number of avocados sold. 
 	“4046”, total number of avocados with PLU 4046.
-	“4225”, total number of avocados with PLU 4025.
-	“4770”, total number of avocados with PLU 4070.
+	“4225”, total number of avocados with PLU 4225.
+	“4770”, total number of avocados with PLU 4770.
 	“Total Bags”, sum of the 3 bag sizes.
 	“type”, conventional or organic.
 	“region”, city or region of the observation.
