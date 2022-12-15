@@ -23,9 +23,62 @@ Avodata represents weekly national (US) retail avocado sales data from 2015 to I
 ## Data Exploration
 In the first column there is no row identifier, there is a reference related to a weekly report for each state, made up of 51 records each (51 weeks of the year). It is detected when using this column as an index and verifying that there are duplicates, so an automatic index is allowed. isnull() method shows that there are no missing data and that each column contains 18249 records.
 
-## Transformation
+<p align="center">
+  <img src="avocadoplots/df.info().png" width = "500" />
+</p>
+
+### Transformation
 Columns are renamed to improve readability. 
 The "Date" column which is recognized as object type is transformed to datetime type.
 
+
 ## Exploratory Data Analysis
 There are two types of avocados: organic and conventional, exploratoryly it is observed that the price of organic type avocados is higher.
+
+<p align="center">
+  <img src="avocadoplots/densityprice.png" width = "300" />
+</p>
+
+<p align="center">
+  <img src="avocadoplots/priceevolution.png" width = "500" />
+</p>
+
+In the season corresponding to the end and beginning of the year (16-17) there is an increase and subsequent fall in prices at the same time as there is an increase in the number of avocados sold. In other words, there is more demand for avocados at the beginning of the year represented by an increase in sales and accompanied by a drop in prices.
+
+<p align="center">
+  <img src="avocadoplots/totalsold.png" width = "500" />
+</p>
+
+### Regional and Seasonal Analysis
+
+The 'TotalUS' record represents the sum of the total of all states for each of the weeks. This data from the dataset is filtered to prevent it from giving a totalizing result. In total, 53 states are listed. The percentage of sales by region is plotted using the 13 states with the highest sales volumes and grouping the other states in the 'Remaining' field.
+
+VOLUME PLOTS
+<p align="center">
+  <img src="avocadoplots/totalvolumebyregions.png" width = "700" />
+</p>
+ 
+<p align="center">
+  <img src="avocadoplots/monthlyannualvolume.png" width = "500" />
+</p>
+
+       ANALYSIS 
+
+PRICE PLOTS
+
+<p align="center">
+  <img src="avocadoplots/AVERAGE PRICE BY REGION IMPORTING .png" width = "500" />
+</p
+
+ANALYSIS
+
+<p align="center">
+  <img src="avocadoplots/averagemontlyprice.png" width = "500" />
+</p
+
+<p align="center">
+  <img src="avocadoplots/pricevariationyear.png" width = "300" />
+</p
+
+
+
