@@ -29,7 +29,7 @@ In the first column there is no row identifier, there is a reference related to 
 
 ### Transformation
 Columns are renamed to improve readability. 
-The "Date" column which is recognized as object type is transformed to datetime type.
+"Date" column which is recognized as object type is transformed to datetime type.
 
 
 ## Exploratory Data Analysis
