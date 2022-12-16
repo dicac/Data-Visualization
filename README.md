@@ -78,7 +78,7 @@ The regions where the average price of the two types of avocado are higher corre
 As initially assumed, the price tends to increase in the last quarter of the year to fall in the season at the beginning of the year. The two types of avocado behave in a similar way.
 
 <p align="center">
-  <img src="avocadoplots/pricevariationyear.png" width = "300" />
+  <img src="avocadoplots/pricevariationyear.png" width = "400" />
 </p
 
 In the period April to September 2017, the highest prices of the entire sample are observed.
