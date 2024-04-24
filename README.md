@@ -21,5 +21,9 @@ Avodata represents weekly national (US) retail avocado sales data from 2015 to I
 | 2015-01-04 | 1.75  | 27365.89  | 9307.34  | 3844.81 | 615.28 | 13598.46 | 13061.10 | 537.36 | 0.0 | organic| 2015	| Albany
 | 2015-12-20 | 1.35  | 54876.98  | 674.28  | 44638.81 |58.33 | 9505.56 | 9408.07 | 97.49 | 0.0 | conventional | 2015	| Albany 
 
+<p align="center">
+  <img src=https://github.com/dicac/Data-Visualization/blob/main/Total%20volume%20by%20region.png> 
+</p>
+
 [**Check Notebook**](https://github.com/dicac/Data-Visualization/blob/80bb940c796b7a9edb917633bd3f490c046fe2be/Data%20Analysis%20Avocado%20Price.ipynb)
 
